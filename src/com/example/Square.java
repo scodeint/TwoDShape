@@ -1,14 +1,14 @@
 package com.example;
 
 public class Square {
-    public static void area(int a){
+    public static void area(int l){
         int area;
-        area = a*a;
-        System.out.println(area);
+        area = l*l;
+        System.out.println("Area of square ="+" "+area);
     }
-    public static void perimeter(int a){
+    public static void perimeter(int l){
         int perimeter;
-        perimeter = 4*a;
-        System.out.println(perimeter);
+        perimeter = 4*l;
+        System.out.println("The perimeter of the square="+" "+perimeter);
     }
 }

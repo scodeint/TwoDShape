@@ -4,11 +4,11 @@ public class Parallelogram {
     public static void area(int b, int h){
         int area;
         area = b*h;
-        System.out.println(area);
+        System.out.println("Area of parallelogram ="+" "+area);
     }
     public static void perimeter(int b, int h){
         int perimeter;
         perimeter = 2*(b*h);
-        System.out.println(perimeter);
+        System.out.println("The perimeter of the parallelogram="+" "+perimeter);
     }
 }
